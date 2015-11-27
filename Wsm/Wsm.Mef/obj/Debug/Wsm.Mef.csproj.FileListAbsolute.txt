@@ -1,0 +1,9 @@
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Wsm.Mef.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Wsm.Mef.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\obj\Debug\Wsm.Mef.csprojResolveAssemblyReference.cache
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\obj\Debug\Wsm.Mef.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\obj\Debug\Wsm.Mef.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Autofac.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Autofac.Integration.Mef.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Autofac.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Autofac.Integration.Mef.xml
