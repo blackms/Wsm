@@ -1,0 +1,16 @@
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\obj\Debug\Wsm.ExtentionFramework.csprojResolveAssemblyReference.cache
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Wsm.ExtentionFramework.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Wsm.ExtentionFramework.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\obj\Debug\Wsm.ExtentionFramework.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\obj\Debug\Wsm.ExtentionFramework.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\MefContrib.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\MefContrib.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\MefContrib.xml
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\bin\Debug\Wsm.ExtentionFramework.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\bin\Debug\Wsm.ExtentionFramework.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\bin\Debug\MefContrib.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\bin\Debug\MefContrib.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\bin\Debug\MefContrib.xml
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\obj\Debug\Wsm.ExtentionFramework.csprojResolveAssemblyReference.cache
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\obj\Debug\Wsm.ExtentionFramework.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Mef\obj\Debug\Wsm.ExtentionFramework.pdb

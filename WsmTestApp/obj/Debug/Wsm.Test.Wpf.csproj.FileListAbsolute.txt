@@ -1,0 +1,127 @@
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\Wsm.Test.Wpf.csprojResolveAssemblyReference.cache
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\MainWindow.baml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\MainWindow.g.cs
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\App.g.cs
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\WsmTestApp_MarkupCompile.cache
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\WsmTestApp.g.resources
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\WsmTestApp.Properties.Resources.resources
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\Wsm.Test.Wpf.csproj.GenerateResource.Cache
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\WsmTestApp.exe
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\obj\Debug\WsmTestApp.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\WsmTestApp.exe.config
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\WsmTestApp.exe
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\WsmTestApp.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Autofac.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Autofac.Integration.Mef.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Client.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Common.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Redis.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Text.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Autofac.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\Autofac.Integration.Mef.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Client.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Common.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Redis.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ServiceStack.Text.xml
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\WsmTestApp\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.exe.config
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.exe
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.exe
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.Core.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\System.Windows.Interactivity.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.pdb
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.xml
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.xml
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\de\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\en\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\es\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\it\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\Wsm.Test.Wpf.csprojResolveAssemblyReference.cache
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\MainWindow.baml
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\MainWindow.g.cs
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\App.g.cs
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp_MarkupCompile.cache
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.g.resources
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.Properties.Resources.resources
+G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\WsmTestApp\obj\Debug\Wsm.Test.Wpf.csproj.GenerateResource.Cache
+G:\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.exe.config
+G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.exe
+G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.pdb
+G:\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.exe
+G:\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.pdb
+G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.Core.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\System.Windows.Interactivity.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.pdb
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.pdb
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.pdb
+G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.xml
+G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.xml
+G:\Git\Wsm\WsmTestApp\bin\Debug\de\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\en\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\es\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\it\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+G:\Git\Wsm\WsmTestApp\obj\Debug\Wsm.Test.Wpf.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\WsmTestApp\obj\Debug\MainWindow.baml
+G:\Git\Wsm\WsmTestApp\obj\Debug\MainWindow.g.cs
+G:\Git\Wsm\WsmTestApp\obj\Debug\App.g.cs
+G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp_MarkupCompile.cache
+G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.g.resources
+G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.Properties.Resources.resources
+G:\Git\Wsm\WsmTestApp\obj\Debug\Wsm.Test.Wpf.csproj.GenerateResource.Cache

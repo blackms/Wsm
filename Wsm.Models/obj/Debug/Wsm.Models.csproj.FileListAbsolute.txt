@@ -1,0 +1,5 @@
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Models\bin\Debug\Wsm.Models.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Models\bin\Debug\Wsm.Models.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Models\obj\Debug\Wsm.Models.dll
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Models\obj\Debug\Wsm.Models.pdb
+C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Models\obj\Debug\Wsm.Models.csprojResolveAssemblyReference.cache
