@@ -98,13 +98,7 @@ G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.Core.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\System.Windows.Interactivity.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.dll
-G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.dll
-G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.dll
-G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.pdb
-G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.ExtentionFramework.pdb
-G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.MongoDB.pdb
-G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Repository.pdb
 G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.xml
 G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.xml
 G:\Git\Wsm\WsmTestApp\bin\Debug\de\System.Windows.Interactivity.resources.dll
@@ -125,3 +119,5 @@ G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp_MarkupCompile.cache
 G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.g.resources
 G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.Properties.Resources.resources
 G:\Git\Wsm\WsmTestApp\obj\Debug\Wsm.Test.Wpf.csproj.GenerateResource.Cache
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Mef.dll
+G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Mef.pdb

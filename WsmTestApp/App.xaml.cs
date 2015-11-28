@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Reflection;
 using System.Windows;
-using Wsm.ExtentionFramework;
 using Wsm.Contracts.Dal;
-using Wsm.Contracts.Logger;
-using Wsm.Contracts.Models;
-using Wsm.Repository;
-using Wsm.Repository.MongoDB;
+using Wsm.Mef;
 
 namespace WsmTestApp
 {
@@ -32,26 +28,26 @@ namespace WsmTestApp
             var bootstrap = new WsmBootstrap();
             var builder = bootstrap.WsmRegistrationBuilder;
 
+
             //Mainwindow
             builder.ForType<MainWindow>()
                 .Export<MainWindow>();
 
-            //EntryPoint
-            builder.ForType<DataBaseEntryPoint>()
-                .ImportProperty<IRepositoryFactory>(config => config.RepositoryFactory)
-                .Export<IDataBaseEntryPoint>();
+            // Design by contract no project ~ references needed
+            builder.ForTypesMatching(t => t.Name == "DataBaseEntryPoint")
+                   .ImportProperties(prop => prop.Name =="RepositoryFactory")
+                   .ExportInterfaces();
+             
+            builder.ForTypesMatching(t => t.Name == "NLogger")
+                   .ExportInterfaces();
 
-            //RepositoryFactory
-            builder.ForType<RepositoryFactory>()
-                .ImportProperty<IUserRepository>(config => config.UserRepository)
-                .ImportProperty<IAccountRepository>(config => config.AccountRepository)
-                .Export<IRepositoryFactory>();
-
-            //program  by contract . no references needed
-            builder.ForTypesDerivedFrom<ILogger>().Export<ILogger>();
+            builder.ForTypesMatching(t => t.Name == "RepositoryFactory")
+                   .ImportProperties(prop => prop.Name.EndsWith("Repository"))
+                   .ExportInterfaces();
 
             //Repositories
-            builder.ForTypesMatching(t => t.GetInterface(typeof(IRepository<>).Name) != null).ExportInterfaces();
+            builder.ForTypesMatching(t => t.GetInterface(typeof(IRepository<>).Name) != null)
+                   .ExportInterfaces();
 
             var export = bootstrap.wsmContainer.GetExportedValue<MainWindow>();
 

@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.Composition.Hosting;
 using System.ComponentModel.Composition.Registration;
 using System.Reflection;
-using MefContrib.Hosting.Generics;
 
-namespace Wsm.ExtentionFramework
+namespace Wsm.Mef
 {
     public class WsmBootstrap
     {

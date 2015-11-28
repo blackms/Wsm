@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Contracts", "Wsm.Contra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Test.Wpf", "WsmTestApp\Wsm.Test.Wpf.csproj", "{33824493-89F0-4A63-8982-E93EAA5D017B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Repository", "Wsm.Repository\Wsm.Repository.csproj", "{8BC7C5CD-A871-45BE-946A-AF7CAF0F0B2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.DataBaseEntryPoint", "Wsm.Repository\Wsm.DataBaseEntryPoint.csproj", "{8BC7C5CD-A871-45BE-946A-AF7CAF0F0B2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Repository.MongoDB", "Wsm.Repository.MongoDB\Wsm.Repository.MongoDB.csproj", "{B128E6C7-4A0B-43C9-AD16-56FFA3D7A7DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Repository.Redis", "Wsm.Repository.Redis\Wsm.Repository.Redis.csproj", "{D381B8EA-30A7-4621-8F6A-B78D6F47F0E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.ExtentionFramework", "Wsm.Mef\Wsm.ExtentionFramework.csproj", "{26D8308C-3979-4159-B71D-F00096CC0D0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Mef", "Wsm.Mef\Wsm.Mef.csproj", "{26D8308C-3979-4159-B71D-F00096CC0D0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Utils", "Wsm.Utils\Wsm.Utils.csproj", "{DB89F1DD-5B1B-49D0-AD96-CC799A558F49}"
 EndProject

@@ -7,3 +7,14 @@ G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Logger\bin\Debug\Wsm.Co
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Logger\bin\Debug\NLog.xml
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Logger\obj\Debug\Wsm.Logger.dll
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Logger\obj\Debug\Wsm.Logger.pdb
+G:\Git\Wsm\Wsm.Logger\bin\Debug\Wsm.Logger.dll
+G:\Git\Wsm\Wsm.Logger\bin\Debug\Wsm.Logger.pdb
+G:\Git\Wsm\Wsm.Logger\bin\Debug\log4net.dll
+G:\Git\Wsm\Wsm.Logger\bin\Debug\NLog.dll
+G:\Git\Wsm\Wsm.Logger\bin\Debug\Wsm.Contracts.dll
+G:\Git\Wsm\Wsm.Logger\bin\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\Wsm.Logger\bin\Debug\log4net.xml
+G:\Git\Wsm\Wsm.Logger\bin\Debug\NLog.xml
+G:\Git\Wsm\Wsm.Logger\obj\Debug\Wsm.Logger.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.Logger\obj\Debug\Wsm.Logger.dll
+G:\Git\Wsm\Wsm.Logger\obj\Debug\Wsm.Logger.pdb

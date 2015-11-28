@@ -117,17 +117,9 @@
       <Project>{97af09e5-ae7b-414e-b17b-462da4b0d8de}</Project>
       <Name>Wsm.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Wsm.Mef\Wsm.ExtentionFramework.csproj">
+    <ProjectReference Include="..\Wsm.Mef\Wsm.Mef.csproj">
       <Project>{26d8308c-3979-4159-b71d-f00096cc0d0a}</Project>
-      <Name>Wsm.ExtentionFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Wsm.Repository.MongoDB\Wsm.Repository.MongoDB.csproj">
-      <Project>{b128e6c7-4a0b-43c9-ad16-56ffa3d7a7db}</Project>
-      <Name>Wsm.Repository.MongoDB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Wsm.Repository\Wsm.Repository.csproj">
-      <Project>{8bc7c5cd-a871-45be-946a-af7caf0f0b2a}</Project>
-      <Name>Wsm.Repository</Name>
+      <Name>Wsm.Mef</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

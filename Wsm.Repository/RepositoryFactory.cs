@@ -1,10 +1,4 @@
-﻿using System;
-using Wsm.Contracts;
-using System.Linq;
-using Wsm.Contracts.Models;
-using Wsm.Contracts.Dal;
-using System.ComponentModel.Composition;
-using System.ComponentModel.Composition.Hosting;
+﻿using Wsm.Contracts.Dal;
 
 namespace Wsm.Repository
 {

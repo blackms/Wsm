@@ -22,3 +22,10 @@ G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository\bin\Debug\Mo
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.Repository.csprojResolveAssemblyReference.cache
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.Repository.dll
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.Repository.pdb
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.Repository.dll
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.Repository.pdb
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.Contracts.dll
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.Repository.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.Repository.dll
+G:\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.Repository.pdb

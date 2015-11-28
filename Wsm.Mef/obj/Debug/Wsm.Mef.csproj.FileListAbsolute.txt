@@ -7,3 +7,11 @@ C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Auto
 C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Autofac.Integration.Mef.dll
 C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Autofac.xml
 C:\Users\Wiljan\Documents\Visual Studio 2013\Projects\Wsm\Wsm.Mef\bin\Debug\Autofac.Integration.Mef.xml
+G:\Git\Wsm\Wsm.Mef\bin\Debug\Wsm.Mef.dll
+G:\Git\Wsm\Wsm.Mef\bin\Debug\Wsm.Mef.pdb
+G:\Git\Wsm\Wsm.Mef\bin\Debug\MefContrib.dll
+G:\Git\Wsm\Wsm.Mef\bin\Debug\MefContrib.pdb
+G:\Git\Wsm\Wsm.Mef\bin\Debug\MefContrib.xml
+G:\Git\Wsm\Wsm.Mef\obj\Debug\Wsm.Mef.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.Mef\obj\Debug\Wsm.Mef.dll
+G:\Git\Wsm\Wsm.Mef\obj\Debug\Wsm.Mef.pdb

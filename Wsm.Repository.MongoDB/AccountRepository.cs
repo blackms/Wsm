@@ -10,7 +10,6 @@ namespace Wsm.Repository.MongoDB
     /// </summary>
     public class AccountRepository : Repository<Account>, IAccountRepository
     {
-
         /// <summary>
         /// Initializes a new instance of the <see cref="AccountRepository"/> class.
         /// </summary>

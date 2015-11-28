@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WsmTestApp
 {
-    [Export]
+
     public class WsmConnection
     {
         [Export("DataBaseEntryPoint")]
@@ -20,6 +20,5 @@ namespace WsmTestApp
                 return new MongoClient(connectionString).GetDatabase("WsmDb");
             }
         }
-
     }
 }

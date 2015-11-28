@@ -16,7 +16,7 @@ namespace Wsm.Utils
             try
             {
                 var rsa = new RSACryptoServiceProvider();
-                var dataArray = data.Split(new char[] { ',' });
+                var dataArray = data.Split(',');
 
                 byte[] dataByte = new byte[dataArray.Length];
                 for (int i = 0; i < dataArray.Length; i++)
