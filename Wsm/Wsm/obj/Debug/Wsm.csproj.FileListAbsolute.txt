@@ -1,7 +1,0 @@
-C:\Users\Wiljan\documents\visual studio 2013\Projects\Wsm\Wsm\obj\Debug\Wsm.csprojResolveAssemblyReference.cache
-C:\Users\Wiljan\documents\visual studio 2013\Projects\Wsm\Wsm\bin\Debug\Wsm.dll
-C:\Users\Wiljan\documents\visual studio 2013\Projects\Wsm\Wsm\bin\Debug\Wsm.pdb
-C:\Users\Wiljan\documents\visual studio 2013\Projects\Wsm\Wsm\bin\Debug\Wsm.Contracts.dll
-C:\Users\Wiljan\documents\visual studio 2013\Projects\Wsm\Wsm\bin\Debug\Wsm.Contracts.pdb
-C:\Users\Wiljan\documents\visual studio 2013\Projects\Wsm\Wsm\obj\Debug\Wsm.dll
-C:\Users\Wiljan\documents\visual studio 2013\Projects\Wsm\Wsm\obj\Debug\Wsm.pdb

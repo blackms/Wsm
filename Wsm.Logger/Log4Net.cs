@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Wsm.Contracts.Logger;
@@ -12,7 +11,7 @@ namespace Wsm.Logger
     /// </summary>
     public class Log4Net : ILogger
     {
-        private log4net.ILog _log;
+        private readonly log4net.ILog _log;
 
         public Log4Net(string loggerName)
         {

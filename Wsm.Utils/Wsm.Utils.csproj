@@ -41,10 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Encryption.cs" />
+    <Compile Include="PasswordEncryption.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RSAClass.cs" />
-    <Compile Include="Token.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

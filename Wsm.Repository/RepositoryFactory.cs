@@ -1,8 +1,11 @@
-﻿using Wsm.Contracts.Dal;
+﻿using Wsm.Contracts.Database;
 
-namespace Wsm.Repository
+namespace Wsm.DataBaseEntryPoint
 {
 
+    /// <summary>
+    /// 
+    /// </summary>
     public class RepositoryFactory : IRepositoryFactory
     {
         /// <summary>

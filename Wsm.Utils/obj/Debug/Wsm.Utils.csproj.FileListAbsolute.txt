@@ -5,6 +5,6 @@ G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Utils\obj\Debug\Wsm.Uti
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Utils\obj\Debug\Wsm.Utils.pdb
 G:\Git\Wsm\Wsm.Utils\bin\Debug\Wsm.Utils.dll
 G:\Git\Wsm\Wsm.Utils\bin\Debug\Wsm.Utils.pdb
-G:\Git\Wsm\Wsm.Utils\obj\Debug\Wsm.Utils.csprojResolveAssemblyReference.cache
 G:\Git\Wsm\Wsm.Utils\obj\Debug\Wsm.Utils.dll
 G:\Git\Wsm\Wsm.Utils\obj\Debug\Wsm.Utils.pdb
+G:\Git\Wsm\Wsm.Utils\obj\Debug\Wsm.Utils.csprojResolveAssemblyReference.cache

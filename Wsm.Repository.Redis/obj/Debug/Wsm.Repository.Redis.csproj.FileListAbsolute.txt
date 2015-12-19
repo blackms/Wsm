@@ -38,3 +38,23 @@ G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository.Redis\bin\De
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository.Redis\obj\Debug\Wsm.Repository.Redis.csprojResolveAssemblyReference.cache
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository.Redis\obj\Debug\Wsm.Repository.Redis.dll
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Repository.Redis\obj\Debug\Wsm.Repository.Redis.pdb
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\Wsm.Repository.Redis.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\Wsm.Repository.Redis.pdb
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Client.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Common.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Interfaces.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.OrmLite.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Redis.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Server.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Text.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\Wsm.Contracts.dll
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.xml
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Client.xml
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Common.xml
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Redis.xml
+G:\Git\Wsm\Wsm.Repository.Redis\bin\Debug\ServiceStack.Text.xml
+G:\Git\Wsm\Wsm.Repository.Redis\obj\Debug\Wsm.Repository.Redis.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.Repository.Redis\obj\Debug\Wsm.Repository.Redis.dll
+G:\Git\Wsm\Wsm.Repository.Redis\obj\Debug\Wsm.Repository.Redis.pdb

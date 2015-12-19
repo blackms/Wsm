@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.Composition;
-using Wsm.Contracts;
-using Wsm.Contracts.Dal;
+﻿using Wsm.Contracts.Database;
 using Wsm.Contracts.Models;
 
 namespace Wsm.Repository.MongoDB
@@ -13,10 +11,10 @@ namespace Wsm.Repository.MongoDB
         /// <summary>
         /// Initializes a new instance of the <see cref="AccountRepository"/> class.
         /// </summary>
-        /// <param name="dbContext"></param>
-        public AccountRepository([Import("DataBaseEntryPoint")] dynamic dbContext)
+        /// <param name="dbConnection"></param>
+        public AccountRepository(IConnection dbConnection)
         {
-            DbContext = dbContext;
+            DbContext = dbConnection.DbContext;
         }
 
         /// <summary>

@@ -93,14 +93,9 @@ G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.exe
 G:\Git\Wsm\WsmTestApp\obj\Debug\WsmTestApp.pdb
 G:\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.exe
 G:\Git\Wsm\WsmTestApp\bin\Debug\WsmTestApp.pdb
-G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.dll
-G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.Core.dll
-G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\System.Windows.Interactivity.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\Wsm.Contracts.pdb
-G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Bson.xml
-G:\Git\Wsm\WsmTestApp\bin\Debug\MongoDB.Driver.xml
 G:\Git\Wsm\WsmTestApp\bin\Debug\de\System.Windows.Interactivity.resources.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\en\System.Windows.Interactivity.resources.dll
 G:\Git\Wsm\WsmTestApp\bin\Debug\es\System.Windows.Interactivity.resources.dll

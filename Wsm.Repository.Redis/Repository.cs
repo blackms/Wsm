@@ -1,8 +1,7 @@
 ﻿using ServiceStack.Redis;
 using System;
 using Wsm.Contracts;
-using Wsm.Contracts.Dal;
-
+using Wsm.Contracts.Database;
 
 namespace Wsm.Repository.Redis
 {
@@ -10,15 +9,15 @@ namespace Wsm.Repository.Redis
     /// 
     /// </summary>
     /// <typeparam name="TModel">The type of the model.</typeparam>
-    public class Repository<TModel> : IRepository<TModel> where TModel: class,         IModel
+    public class Repository<TModel> : IRepository<TModel> where TModel : class, IModel
     {
         /// <summary>
         /// The _DB manager
         /// </summary>
-        protected PooledRedisClientManager _dbContext;
-        private string _collectionname = typeof(TModel).Name.ToLower().ToString();
+        protected dynamic DbContext;
+       
         /// <summary>
-        /// Initializes a new instance of the <see cref="Repository{TModel, TDatabase}"/> class.
+        /// Initializes a new instance of the <see cref="Repository{TModel}"/> class.
         /// </summary>
         public Repository()
         {
@@ -27,10 +26,9 @@ namespace Wsm.Repository.Redis
         /// <summary>
         /// Initializes a new instance of the <see cref="Repository{TModel}"/> class.
         /// </summary>
-        /// <param name="dbManager">The database manager.</param>
-        public Repository(PooledRedisClientManager dbContext)
+        public Repository(IConnection dbConnection)
         {
-            _dbContext = dbContext;
+            DbContext = dbConnection.DbContext;
         }
 
         /// <summary>
@@ -39,10 +37,7 @@ namespace Wsm.Repository.Redis
         /// <param name="model">The model.</param>
         public void Create(TModel model)
         {
-            _dbContext.ExecAs<TModel>(redisManager =>
-            {
-                redisManager.Store(model);
-            });                      
+            DbContext.GetClient().As<TModel>().Store(model);
         }
 
         /// <summary>

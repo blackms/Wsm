@@ -50,14 +50,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dal\IDatabaseEntryPoint.cs" />
-    <Compile Include="Dal\IRepository.cs" />
-    <Compile Include="Dal\IRepositoryFactory.cs" />
-    <Compile Include="Dal\IUserRepository.cs" />
-    <Compile Include="Dal\IAccountRepository.cs" />
+    <Compile Include="Database\IConnection.cs" />
+    <Compile Include="Database\IDatabaseEntryPoint.cs" />
+    <Compile Include="Database\IRepository.cs" />
+    <Compile Include="Database\IRepositoryFactory.cs" />
+    <Compile Include="Database\IUserRepository.cs" />
+    <Compile Include="Database\IAccountRepository.cs" />
+    <Compile Include="IAuthentication.cs" />
     <Compile Include="Logger\ILogger.cs" />
     <Compile Include="Models\IModel.cs" />
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

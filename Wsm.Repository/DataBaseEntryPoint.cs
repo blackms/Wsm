@@ -1,9 +1,9 @@
-﻿using Wsm.Contracts.Dal;
+﻿using Wsm.Contracts.Database;
 
-namespace Wsm.Repository
+namespace Wsm.DataBaseEntryPoint
 {
     /// <summary>
-    /// Responsible for returning a database specific entrypoint
+    /// Responsible for database specific stuff
     /// </summary>
     public class DataBaseEntryPoint : IDataBaseEntryPoint
     {

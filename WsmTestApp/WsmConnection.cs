@@ -16,7 +16,7 @@ namespace WsmTestApp
         {
             get
             {
-                var connectionString = "mongodb://admin:test123@127.0.0.1/WsmDb";
+                const string connectionString = "mongodb://admin:test123@127.0.0.1/WsmDb";
                 return new MongoClient(connectionString).GetDatabase("WsmDb");
             }
         }

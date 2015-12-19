@@ -18,3 +18,13 @@ G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Contracts\bin\Debug\Mon
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Contracts\obj\Debug\Wsm.Contracts.csprojResolveAssemblyReference.cache
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Contracts\obj\Debug\Wsm.Contracts.dll
 G:\visual studio\Visual Studio 2013\Projects\Git\Wsm\Wsm.Contracts\obj\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\Wsm.Contracts\bin\Debug\Wsm.Contracts.dll
+G:\Git\Wsm\Wsm.Contracts\bin\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\Wsm.Contracts\bin\Debug\MongoDB.Bson.dll
+G:\Git\Wsm\Wsm.Contracts\bin\Debug\MongoDB.Driver.Core.dll
+G:\Git\Wsm\Wsm.Contracts\bin\Debug\MongoDB.Driver.dll
+G:\Git\Wsm\Wsm.Contracts\bin\Debug\MongoDB.Bson.xml
+G:\Git\Wsm\Wsm.Contracts\bin\Debug\MongoDB.Driver.xml
+G:\Git\Wsm\Wsm.Contracts\obj\Debug\Wsm.Contracts.dll
+G:\Git\Wsm\Wsm.Contracts\obj\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\Wsm.Contracts\obj\Debug\Wsm.Contracts.csprojResolveAssemblyReference.cache

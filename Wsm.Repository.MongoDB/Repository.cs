@@ -1,8 +1,6 @@
-﻿using MongoDB.Driver;
-using System;
-using System.ComponentModel.Composition;
+﻿using System;
 using Wsm.Contracts;
-using Wsm.Contracts.Dal;
+using Wsm.Contracts.Database;
 
 
 namespace Wsm.Repository.MongoDB
@@ -21,21 +19,20 @@ namespace Wsm.Repository.MongoDB
         /// <summary>
         /// The collectionname
         /// </summary>
-        protected string Collectionname = typeof (TModel).Name.ToLower();
+        protected string Collectionname = typeof(TModel).Name.ToLower();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Repository{TModel}"/> class.
         /// </summary>
-        public Repository(){}
+        public Repository() { }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Repository{TModel}" /> class.
         /// </summary>
-        /// <param name="dbContext">The database context.</param>
-        [ImportingConstructor]
-        public Repository([Import("DataBaseEntryPoint")] dynamic dbContext)
+        /// <param name="dbConnection"></param>
+        public Repository(IConnection dbConnection)
         {
-            DbContext = dbContext;
+            DbContext = dbConnection.DbContext;
         }
 
         /// <summary>

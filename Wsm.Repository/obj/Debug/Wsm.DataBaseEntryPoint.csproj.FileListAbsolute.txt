@@ -1,0 +1,7 @@
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.Contracts.dll
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.Contracts.pdb
+G:\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.DataBaseEntryPoint.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.DataBaseEntryPoint.dll
+G:\Git\Wsm\Wsm.Repository\bin\Debug\Wsm.DataBaseEntryPoint.pdb
+G:\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.DataBaseEntryPoint.dll
+G:\Git\Wsm\Wsm.Repository\obj\Debug\Wsm.DataBaseEntryPoint.pdb
