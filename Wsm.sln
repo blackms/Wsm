@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{18
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Authentication", "Wsm.Authentication\Wsm.Authentication.csproj", "{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Test.Web.Mvc", "Wsm.Test.Web.Mvc\Wsm.Test.Web.Mvc.csproj", "{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,11 +67,16 @@ Global
 		{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{33824493-89F0-4A63-8982-E93EAA5D017B} = {18596430-7ECB-4587-B45E-D8134439DCEE}
+		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70} = {18596430-7ECB-4587-B45E-D8134439DCEE}
 	EndGlobalSection
 EndGlobal

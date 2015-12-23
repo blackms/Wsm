@@ -25,7 +25,7 @@ namespace Wsm.Mef
         /// <value>
         /// The WSM container.
         /// </value>
-        public CompositionContainer wsmContainer => _wsmContainer ?? (_wsmContainer = Init(WsmRegistrationBuilder, ModulairPath));
+        public CompositionContainer Container => _wsmContainer ?? (_wsmContainer = Init(RegistrationBuilder, ModulairPath));
 
         /// <summary>
         /// Gets or sets the WSM registration builder.
@@ -33,7 +33,10 @@ namespace Wsm.Mef
         /// <value>
         /// The WSM registration builder.
         /// </value>
-        public RegistrationBuilder WsmRegistrationBuilder => _wsmReflectionBuilder ?? (_wsmReflectionBuilder = new RegistrationBuilder());
+        public RegistrationBuilder RegistrationBuilder => _wsmReflectionBuilder ?? (_wsmReflectionBuilder = new RegistrationBuilder());
+
+        public AggregateCatalog Ac = new AggregateCatalog();
+
 
         /// <summary>
         /// Initializes the specified registered exports.
@@ -41,21 +44,14 @@ namespace Wsm.Mef
         /// <param name="registeredExports">The registered exports.</param>
         /// <param name="modulairPath"></param>
         /// <returns></returns>
-        private static CompositionContainer Init(ReflectionContext registeredExports, string modulairPath)
+        private CompositionContainer Init(ReflectionContext registeredExports, string modulairPath)
         {
             if (string.IsNullOrWhiteSpace(modulairPath))
                 throw new ArgumentNullException();
+         
+            Ac.Catalogs.Add(new DirectoryCatalog(modulairPath, registeredExports));
 
-            var ac = new AggregateCatalog();
-            var program = new AssemblyCatalog(Assembly.GetEntryAssembly(), registeredExports);
-            var appCatalog = new AssemblyCatalog(Assembly.GetCallingAssembly(), registeredExports);
-            var libCatalog = new DirectoryCatalog(modulairPath, registeredExports);
-
-            ac.Catalogs.Add(program);
-            ac.Catalogs.Add(appCatalog);
-            ac.Catalogs.Add(libCatalog);
-
-            var container = new CompositionContainer(ac, CompositionOptions.DisableSilentRejection | CompositionOptions.IsThreadSafe);
+            var container = new CompositionContainer(Ac, CompositionOptions.DisableSilentRejection | CompositionOptions.IsThreadSafe);
             return container;
         }
     }
