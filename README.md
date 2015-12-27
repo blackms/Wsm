@@ -5,4 +5,4 @@
 - Only need one project reference while creating a new solution (Wsm.Contracts) Mef resolves interfaces to concrete implementations.
 
 
-@Author Wiljan Ruizendaal
+
