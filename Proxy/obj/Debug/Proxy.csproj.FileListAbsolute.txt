@@ -1,0 +1,7 @@
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Proxy\obj\Debug\Proxy.csprojResolveAssemblyReference.cache
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Proxy\bin\Debug\Proxy.dll
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Proxy\bin\Debug\Proxy.pdb
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Proxy\bin\Debug\Monitors.dll
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Proxy\bin\Debug\Monitors.pdb
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Proxy\obj\Debug\Proxy.dll
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Proxy\obj\Debug\Proxy.pdb

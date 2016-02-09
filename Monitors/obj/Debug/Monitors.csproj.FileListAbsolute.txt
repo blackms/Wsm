@@ -1,0 +1,5 @@
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Monitors\bin\Debug\Monitors.dll
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Monitors\bin\Debug\Monitors.pdb
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Monitors\obj\Debug\Monitors.csprojResolveAssemblyReference.cache
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Monitors\obj\Debug\Monitors.dll
+C:\Users\Wiljan\documents\visual studio 2015\Projects\GatewayExeHandler\Monitors\obj\Debug\Monitors.pdb
