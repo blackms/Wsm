@@ -17,7 +17,16 @@ namespace Wsm.VMware.ViewModels
         public string Name { get; set; }
 
         //selected pool
-        public ResourcePool SelectedResourcePool;
+        /// <summary>
+        /// The selected resource pool
+        /// </summary>
+        public ResourcePool SelectedResourcePool { get; set; }
+
+        /// <summary>
+        /// The virtual machines
+        /// </summary>
+        public VirtualMachines VirtualMachines;
+
 
         /// <summary>
         /// The _client
@@ -31,9 +40,10 @@ namespace Wsm.VMware.ViewModels
         public ResourcePools(VimClientImpl client)
         {
             _client = client;
-
             GetResourcePools();
         }
+
+
 
         private List<ResourcePool> _AvailabelResourcePools;
         /// <summary>
@@ -58,7 +68,22 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public ResourcePool GetResourcePool(string name)
         {
-            return _AvailabelResourcePools.FirstOrDefault(rp => rp.Name == Name);
+            var resourcePool = _AvailabelResourcePools.FirstOrDefault(rp => rp.Name == Name);
+
+            //Retrieve VMS
+            VirtualMachines = new VirtualMachines((vms) =>
+            {
+                resourcePool.Vm.ToList().ForEach(moRef =>
+                {
+                    var vm = (_client.FindEntityView(typeof(VirtualMachine), moRef, null, null) as VirtualMachine);
+
+                    if (vm != null)
+                        vms.Add(vm);
+                });
+                return vms;
+            });
+
+            return resourcePool;
         }
 
         /// <summary>
@@ -92,41 +117,27 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void Clone(string rp1, string toBeCloned)
         {
-            var resourcepool = AvailableResourcePools.FirstOrDefault(rp => rp.Name == rp1);
+            var resourcepool = GetResourcePoolFromEsx(rp1);
 
             //GetResoucePool(name);
             if (resourcepool == null)
                 Create(resourcepool);
 
-            var PoolToBeCloned = AvailableResourcePools.FirstOrDefault(rp => rp.Name == toBeCloned);
+            var PoolToBeCloned = GetResourcePoolFromEsx(toBeCloned);
 
             if (PoolToBeCloned == null)
                 throw new ArgumentException(Constant.RESOURCEPOOL_IS_NULL);
 
-            var vmsToBeCloned = new VirtualMachines((vms) =>
-            {
-                PoolToBeCloned.Vm.ToList().ForEach(moRef =>
-                {
-                    var vm = (_client.FindEntityView(typeof(VirtualMachine), moRef, null, null) as VirtualMachine);
+            VirtualMachines.StopAllVms();
+            VirtualMachines.Revert();
 
-                    if (vm != null)
-                        vms.Add(vm);
-                });
-                return vms;
-            });
+            VirtualMachines.Vms.ForEach(clone =>
+             {
+                 var folder = (_client.FindEntityView(typeof(Folder), clone.MoRef, null, null) as Folder);
+                 var cloneSpec = new VirtualMachineCloneSpec();
 
-            vmsToBeCloned.StopAllVms();
-            vmsToBeCloned.Revert();
-
-            vmsToBeCloned.Vms.ForEach(clone =>
-            {
-                var folder = (_client.FindEntityView(typeof(Folder), clone.MoRef, null, null) as Folder);
-                var cloneSpec = new VirtualMachineCloneSpec();
-
-                clone.CloneVM(folder.MoRef, clone.Name + "Clone", cloneSpec);
-            });
-
-
+                 clone.CloneVM(folder.MoRef, clone.Name + "Clone", cloneSpec);
+             });
         }
 
         /// <summary>

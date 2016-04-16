@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Wsm.VMware.ViewModels;
 using VMware.Vim;
 
@@ -13,12 +10,7 @@ namespace Wsm.VMware
         /// <summary>
         /// The _resource pool
         /// </summary>
-        public ResourcePools ResourcePools;
-
-        /// <summary>
-        /// The virtual machines
-        /// </summary>
-        public VirtualMachines VirtualMachines;
+        public ResourcePools ResourcePools;      
 
         /// <summary>
         /// The _client
@@ -40,22 +32,6 @@ namespace Wsm.VMware
 
             //Retrieve rpools
             ResourcePools = new ResourcePools(_client);
-
-            //Retrieve recourcepool
-            var resourcePool = ResourcePools.GetResourcePool(resourcepoolName);
-
-            //Retrieve VMS
-            VirtualMachines = new VirtualMachines((vms) =>
-            {
-                resourcePool.Vm.ToList().ForEach(moRef =>
-                {
-                    var vm = (_client.FindEntityView(typeof(VirtualMachine), moRef, null, null) as VirtualMachine);
-
-                    if (vm != null)
-                        vms.Add(vm);
-                });
-                return vms;
-            });
         }
 
         /// <summary>

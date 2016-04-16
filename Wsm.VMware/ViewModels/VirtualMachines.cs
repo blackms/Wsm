@@ -21,7 +21,8 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void StopAllVms()
         {
-            Vms.ForEach(vm => vm.PowerOffVM());
+            Vms.Where(vm => vm.Name.ToLower().Contains("controller") == false && vm.Name.ToLower().Contains("ctrl") == false).ToList()
+                .ForEach(vm => vm.ShutdownGuest());
         }
 
         /// <summary>
@@ -35,7 +36,7 @@ namespace Wsm.VMware.ViewModels
             if (machine == null)
                 throw new ArgumentNullException(Constant.VM_IS_NULL);
 
-            machine.PowerOffVM();
+            machine.ShutdownGuest();
         }
 
         /// <summary>
@@ -58,15 +59,8 @@ namespace Wsm.VMware.ViewModels
         public void StartAllVms()
         {
             //host = resourcepool??
-            Vms.ForEach(vm => vm.PowerOnVM(vm.MoRef));
-        }
-
-        /// <summary>
-        /// Deletes this instance.
-        /// </summary>
-        public void Delete()
-        {
-            Vms.ForEach(vm => vm.Destroy());
+            Vms.Where(vm => vm.Name.ToLower().Contains("controller") == false && vm.Name.ToLower().Contains("ctrl") == false).ToList()
+                .ForEach(vm => vm.PowerOnVM(vm.MoRef));
         }
 
         /// <summary>
@@ -74,7 +68,8 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void Revert()
         {
-            Vms.ForEach(vm => vm.reloadVirtualMachineFromPath(vm.Datastore.First().ToString()));
+            Vms.Where(vm => vm.Name.ToLower().Contains("controller") == false && vm.Name.ToLower().Contains("ctrl") == false).ToList()
+                .ForEach(vm => vm.reloadVirtualMachineFromPath(vm.Datastore.First().ToString()));
         }
 
         /// <summary>
@@ -82,7 +77,8 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void RemoveSnapshots()
         {
-            Vms.ForEach(vm => vm.RemoveAllSnapshots(false));
+            Vms.Where(vm => vm.Name.ToLower().Contains("controller") == false && vm.Name.ToLower().Contains("ctrl") == false).ToList()
+                .ForEach(vm => vm.RemoveAllSnapshots(false));
         }
     }
 }
