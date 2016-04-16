@@ -38,8 +38,10 @@ namespace Wsm.VMware
             var sc = _client.Connect(host);
             var us = _client.Login(username, password);
 
-            //Retrieve rp
+            //Retrieve rpools
             ResourcePools = new ResourcePools(_client);
+
+            //Retrieve recourcepool
             var resourcePool = ResourcePools.GetResourcePool(resourcepoolName);
 
             //Retrieve VMS
