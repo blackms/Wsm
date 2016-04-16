@@ -1,7 +1,7 @@
-﻿using ServiceStack.Redis;
-using System;
+﻿using System;
 using Wsm.Contracts;
 using Wsm.Contracts.Database;
+using Wsm.Contracts.Models;
 
 namespace Wsm.Repository.Redis
 {
@@ -15,7 +15,8 @@ namespace Wsm.Repository.Redis
         /// The _DB manager
         /// </summary>
         protected dynamic DbContext;
-       
+
+
         /// <summary>
         /// Initializes a new instance of the <see cref="Repository{TModel}"/> class.
         /// </summary>
@@ -26,9 +27,9 @@ namespace Wsm.Repository.Redis
         /// <summary>
         /// Initializes a new instance of the <see cref="Repository{TModel}"/> class.
         /// </summary>
-        public Repository(IConnection dbConnection)
+        public Repository(IConnection dbCon)
         {
-            DbContext = dbConnection.DbContext;
+            DbContext = dbCon.DbContext;
         }
 
         /// <summary>

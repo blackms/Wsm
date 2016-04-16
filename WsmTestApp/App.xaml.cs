@@ -46,7 +46,6 @@ namespace WsmTestApp
             export?.Show();
         }
 
-
         private static RegistrationBuilder Init(RegistrationBuilder builder)
         {
             //Database -Stuff

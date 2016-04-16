@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Authentication", "Wsm.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Test.Web.Mvc", "Wsm.Test.Web.Mvc\Wsm.Test.Web.Mvc.csproj", "{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Test.Wpf.Awesomium", "Wsm.Test.Wpf.Awesomium\Wsm.Test.Wpf.Awesomium.csproj", "{A33F43DF-E2BA-40ED-80DE-C42C746D3771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.VMware", "Wsm.VMware\Wsm.VMware.csproj", "{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,14 @@ Global
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33F43DF-E2BA-40ED-80DE-C42C746D3771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33F43DF-E2BA-40ED-80DE-C42C746D3771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33F43DF-E2BA-40ED-80DE-C42C746D3771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33F43DF-E2BA-40ED-80DE-C42C746D3771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +90,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{33824493-89F0-4A63-8982-E93EAA5D017B} = {18596430-7ECB-4587-B45E-D8134439DCEE}
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70} = {18596430-7ECB-4587-B45E-D8134439DCEE}
+		{A33F43DF-E2BA-40ED-80DE-C42C746D3771} = {18596430-7ECB-4587-B45E-D8134439DCEE}
 	EndGlobalSection
 EndGlobal

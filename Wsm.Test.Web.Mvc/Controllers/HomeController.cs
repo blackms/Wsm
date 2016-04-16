@@ -27,8 +27,6 @@ namespace Wsm.Test.Web.Mvc.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             var userRepo = _dataBaseEntryPoint.RepositoryFactory.UserRepository;
 
             userRepo.Create(new User
@@ -39,13 +37,14 @@ namespace Wsm.Test.Web.Mvc.Controllers
                 Email = "wruizendaal@gmail.com"
             });
 
+            _logger.Info("User created");
+
             return View();
         }
 
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }

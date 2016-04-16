@@ -1,4 +1,6 @@
-﻿namespace Wsm.Contracts.Database
+﻿using Wsm.Contracts.Models;
+
+namespace Wsm.Contracts.Database
 {
     /// <summary>
     /// 

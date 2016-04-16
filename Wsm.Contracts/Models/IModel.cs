@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Wsm.Contracts
+namespace Wsm.Contracts.Models
 {
     public interface IModel
     {

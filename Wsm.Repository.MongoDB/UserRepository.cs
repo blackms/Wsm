@@ -1,9 +1,6 @@
 ﻿using MongoDB.Driver;
-using System.Threading.Tasks;
-using Wsm.Contracts;
 using Wsm.Contracts.Models;
 using System;
-using System.ComponentModel.Composition;
 using Wsm.Contracts.Database;
 
 namespace Wsm.Repository.MongoDB

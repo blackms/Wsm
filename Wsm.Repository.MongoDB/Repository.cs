@@ -1,6 +1,7 @@
 ﻿using System;
 using Wsm.Contracts;
 using Wsm.Contracts.Database;
+using Wsm.Contracts.Models;
 
 
 namespace Wsm.Repository.MongoDB
