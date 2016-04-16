@@ -9,7 +9,7 @@ namespace Wsm.VMware.ViewModels
 {
     public class VirtualMachines
     {
-        private List<VirtualMachine> _vms;
+        internal List<VirtualMachine> Vms;
 
         public VirtualMachines(Func<List<VirtualMachine>, List<VirtualMachine>> virtualMachines)
         {

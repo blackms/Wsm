@@ -17,7 +17,7 @@ namespace Wsm.VMware.ViewModels
         public string Name { get; set; }
 
         //selected pool
-        public ResourcePool ResourcePool;
+        public ResourcePool SelectedResourcePool;
 
         /// <summary>
         /// The _client
@@ -56,30 +56,17 @@ namespace Wsm.VMware.ViewModels
         /// <summary>
         /// Selecteds the resource pool.
         /// </summary>
-        public void SelectedResourcePool()
+        public  ResourcePool GetResourcePool(string name)
         {
-            ResourcePool = _AvailabelResourcePools.FirstOrDefault(rp => rp.Name == Name);
+          return _AvailabelResourcePools.FirstOrDefault(rp => rp.Name == Name);
         }
 
         /// <summary>
-        /// Gets the virtual machines.
+        /// Gets the resouce pool.
         /// </summary>
-        public List<VirtualMachine> getVirtualMachines()
-        {
-            var vms = new List<VirtualMachine>();
-
-            ResourcePool.Vm.ToList().ForEach(moRef =>
-            {
-                var vm = (_client.FindEntityView(typeof(VirtualMachine), moRef, null, null) as VirtualMachine);
-
-                if (vm != null)
-                    vms.Add(vm);
-            });
-
-            return vms;
-        }
-
-        public ResourcePool GetResoucePool(string name)
+        /// <param name="name">The name.</param>
+        /// <returns></returns>
+        public ResourcePool GetResourcePoolFromEsx(string name)
         {
             NameValueCollection filterHost = new NameValueCollection();
             filterHost.Add("Name", name);
@@ -87,6 +74,10 @@ namespace Wsm.VMware.ViewModels
             return (_client.FindEntityView(typeof(ResourcePool), null, filterHost, new string[] { "Name" }) as ResourcePool);
         }
 
+        /// <summary>
+        /// Gets the host.
+        /// </summary>
+        /// <param name="hostName">Name of the host.</param>
         public void GetHost(string hostName)
         {
             NameValueCollection filterHost = new NameValueCollection();
@@ -106,6 +97,25 @@ namespace Wsm.VMware.ViewModels
             //GetResoucePool(name);
             if (resourcepool == null)
                 Create(resourcepool);
+
+            var PoolToBeCloned = AvailableResourcePools.FirstOrDefault(rp => rp.Name == toBeCloned);
+
+            if (PoolToBeCloned == null)
+                throw new ArgumentException(Constant.RESOURCEPOOL_IS_NULL);
+            
+             var vmsToBeCloned = new VirtualMachines((vms) =>
+             {
+                 PoolToBeCloned.Vm.ToList().ForEach(moRef =>
+                 {
+                     var vm = (_client.FindEntityView(typeof(VirtualMachine), moRef, null, null) as VirtualMachine);
+
+                     if (vm != null)
+                         vms.Add(vm);
+                 });
+                 return vms;
+             });
+            
+           // vmsToBeCloned.Vms.First().CloneVM
 
         }
 

@@ -31,21 +31,22 @@ namespace Wsm.VMware
         /// </summary>
         public string host, username, password;
 
-        public VMwareManager(string host, string username, string password)
+        public VMwareManager(string host, string username, string password, string resourcepoolName)
         {
+            //Create Client
             _client = new VimClientImpl();
+
             var sc = _client.Connect(host);
             var us = _client.Login(username, password);
 
             //Retrieve rp
-            ResourcePools = new ViewModels.ResourcePools(_client);
-            ResourcePools.Name = "Test";
-            ResourcePools.SelectedResourcePool();
+            ResourcePools = new ResourcePools(_client);
+            var resourcePool = ResourcePools.GetResourcePool(resourcepoolName);
 
             //Retrieve VMS
             VirtualMachines = new VirtualMachines((vms) =>
             {
-                ResourcePools.ResourcePool.Vm.ToList().ForEach(moRef =>
+                resourcePool.Vm.ToList().ForEach(moRef =>
                 {
                     var vm = (_client.FindEntityView(typeof(VirtualMachine), moRef, null, null) as VirtualMachine);
 

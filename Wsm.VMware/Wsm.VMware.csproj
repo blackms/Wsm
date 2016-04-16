@@ -49,6 +49,7 @@
     <Compile Include="Models\Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ResourcePools.cs" />
+    <Compile Include="ViewModels\VirtualMachines.cs" />
     <Compile Include="VMwareManager.cs" />
     <Compile Include="Wsm\VMware\Vim.cs" />
   </ItemGroup>

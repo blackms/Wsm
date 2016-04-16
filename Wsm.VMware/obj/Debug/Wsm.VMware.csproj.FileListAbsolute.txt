@@ -1,1 +1,6 @@
 G:\Git\Wsm\Wsm.VMware\obj\Debug\Wsm.VMware.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.VMware\bin\Debug\Wsm.VMware.dll
+G:\Git\Wsm\Wsm.VMware\bin\Debug\Wsm.VMware.pdb
+G:\Git\Wsm\Wsm.VMware\bin\Debug\VMware.Vim.dll
+G:\Git\Wsm\Wsm.VMware\obj\Debug\Wsm.VMware.dll
+G:\Git\Wsm\Wsm.VMware\obj\Debug\Wsm.VMware.pdb
