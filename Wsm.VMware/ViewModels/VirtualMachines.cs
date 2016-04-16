@@ -9,11 +9,11 @@ namespace Wsm.VMware.ViewModels
 {
     public class VirtualMachines
     {
-        internal List<VirtualMachine> Vms;
+        internal List<VirtualMachine> Vms; // no its not!!
 
         public VirtualMachines(Func<List<VirtualMachine>, List<VirtualMachine>> virtualMachines)
         {
-            virtualMachines(_vms);
+            virtualMachines(Vms);
         }
 
         /// <summary>
@@ -21,7 +21,7 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void StopAllVms()
         {
-            _vms.ForEach(vm => vm.PowerOffVM());
+            Vms.ForEach(vm => vm.PowerOffVM());
         }
 
         /// <summary>
@@ -30,7 +30,7 @@ namespace Wsm.VMware.ViewModels
         /// <param name="vm">The vm.</param>
         public void stopVm(string name)
         {
-            var machine = _vms.FirstOrDefault(vm => vm.Name == name);
+            var machine = Vms.FirstOrDefault(vm => vm.Name == name);
 
             if (machine == null)
                 throw new ArgumentNullException(Constant.VM_IS_NULL);
@@ -44,7 +44,7 @@ namespace Wsm.VMware.ViewModels
         /// <param name="name">The name.</param>
         public void StartVm(string name)
         {
-            var machine = _vms.FirstOrDefault(vm => vm.Name == name);
+            var machine = Vms.FirstOrDefault(vm => vm.Name == name);
 
             if (machine == null)
                 throw new ArgumentNullException(Constant.VM_IS_NULL);
@@ -58,7 +58,7 @@ namespace Wsm.VMware.ViewModels
         public void StartAllVms()
         {
             //host = resourcepool??
-            _vms.ForEach(vm => vm.PowerOnVM(vm.MoRef));
+            Vms.ForEach(vm => vm.PowerOnVM(vm.MoRef));
         }
 
         /// <summary>
@@ -66,7 +66,7 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void Delete()
         {
-            _vms.ForEach(vm => vm.Destroy());
+            Vms.ForEach(vm => vm.Destroy());
         }
 
         /// <summary>
@@ -74,7 +74,7 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void Revert()
         {
-            _vms.ForEach(vm => vm.reloadVirtualMachineFromPath(vm.Datastore.First().ToString()));
+            Vms.ForEach(vm => vm.reloadVirtualMachineFromPath(vm.Datastore.First().ToString()));
         }
 
         /// <summary>
@@ -82,7 +82,7 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public void RemoveSnapshots()
         {
-            _vms.ForEach(vm => vm.RemoveAllSnapshots(false));
+            Vms.ForEach(vm => vm.RemoveAllSnapshots(false));
         }
     }
 }
