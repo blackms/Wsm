@@ -8,14 +8,6 @@ namespace Wsm.VMware.ViewModels
 {
     public class ResourcePools
     {
-        /// <summary>
-        /// Gets or sets the name.
-        /// </summary>
-        /// <value>
-        /// The name.
-        /// </value>
-        public string Name { get; set; }
-
         //selected pool
         /// <summary>
         /// The selected resource pool
@@ -25,13 +17,12 @@ namespace Wsm.VMware.ViewModels
         /// <summary>
         /// The virtual machines
         /// </summary>
-        public VirtualMachines VirtualMachines;
-
+        public VirtualMachines VirtualMachines { get; set; }
 
         /// <summary>
         /// The _client
         /// </summary>
-        private VimClientImpl _client;
+        private VimClientImpl _client { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ViewModels.ResourcePools"/> class.
@@ -43,9 +34,11 @@ namespace Wsm.VMware.ViewModels
             GetResourcePools();
         }
 
+        /// <summary>
+        /// The _ availabel resource pools
+        /// </summary>
+        private List<ResourcePool> _AvailabelResourcePools { get; set; }
 
-
-        private List<ResourcePool> _AvailabelResourcePools;
         /// <summary>
         /// The _resource pool
         /// </summary>
@@ -61,6 +54,7 @@ namespace Wsm.VMware.ViewModels
         public void GetResourcePools()
         {
             _AvailabelResourcePools = _client.FindEntityViews(typeof(ResourcePool), null, null, null).Cast<ResourcePool>().ToList();
+
         }
 
         /// <summary>
@@ -68,12 +62,21 @@ namespace Wsm.VMware.ViewModels
         /// </summary>
         public ResourcePool GetResourcePool(string name)
         {
-            var resourcePool = _AvailabelResourcePools.FirstOrDefault(rp => rp.Name == Name);
+            var resourcePool = _AvailabelResourcePools.FirstOrDefault(rp => rp.Name == name);
 
-            //Retrieve VMS
+            if (resourcePool == null)
+                throw new ArgumentException(Constant.RESOURCEPOOL_IS_NULL);
+
+            GetVirtualMachinesFromResourcePool(resourcePool);
+
+            return resourcePool;
+        }
+
+        public void GetVirtualMachinesFromResourcePool(ResourcePool rsp)
+        {
             VirtualMachines = new VirtualMachines((vms) =>
             {
-                resourcePool.Vm.ToList().ForEach(moRef =>
+                rsp.Vm.ToList().ForEach(moRef =>
                 {
                     var vm = (_client.FindEntityView(typeof(VirtualMachine), moRef, null, null) as VirtualMachine);
 
@@ -82,8 +85,6 @@ namespace Wsm.VMware.ViewModels
                 });
                 return vms;
             });
-
-            return resourcePool;
         }
 
         /// <summary>
@@ -93,10 +94,16 @@ namespace Wsm.VMware.ViewModels
         /// <returns></returns>
         public ResourcePool GetResourcePoolFromEsx(string name)
         {
-            NameValueCollection filterHost = new NameValueCollection();
-            filterHost.Add("Name", name);
+            NameValueCollection filterHost = new NameValueCollection() { { "Name", name } };
 
-            return (_client.FindEntityView(typeof(ResourcePool), null, filterHost, new string[] { "Name" }) as ResourcePool);
+            var resourcePool = (_client.FindEntityView(typeof(ResourcePool), null, filterHost, new string[] { "Name" }) as ResourcePool);
+
+            if (resourcePool == null)
+                throw new ArgumentException(Constant.RESOURCEPOOL_IS_NULL);
+
+            GetVirtualMachinesFromResourcePool(resourcePool);
+
+            return resourcePool;
         }
 
         /// <summary>
@@ -109,7 +116,6 @@ namespace Wsm.VMware.ViewModels
             filterHost.Add("Name", hostName);
             HostSystem hosRef = (HostSystem)_client.FindEntityView(typeof(HostSystem), null, filterHost, new string[] { "Name" });
             HostSystem host = (_client.GetView(hosRef.MoRef, null) as HostSystem);
-
         }
 
         /// <summary>
@@ -119,7 +125,6 @@ namespace Wsm.VMware.ViewModels
         {
             var resourcepool = GetResourcePoolFromEsx(rp1);
 
-            //GetResoucePool(name);
             if (resourcepool == null)
                 Create(resourcepool);
 
