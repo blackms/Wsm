@@ -5,6 +5,7 @@ using System.ComponentModel.Composition.Registration;
 using System.Reflection;
 using System.Windows;
 using Wsm.Contracts.Database;
+using Wsm.Contracts.Dispatcher;
 using Wsm.Mef;
 
 namespace WsmTestApp
@@ -40,12 +41,17 @@ namespace WsmTestApp
             db.ConnectionString = "mongodb://admin:test123@127.0.0.1/WsmDb";
             db.DataBaseName = "WsmDb";
 
-            var export = bootstrap.Container.GetExportedValue<MainWindow>();
+            Lazy<MainWindow> export = bootstrap.Container.GetExport<MainWindow>(); 
 
-            //Awesome!!!
-            export?.Show();
+            export.Value.Show();
+                      
         }
 
+        /// <summary>
+        /// Initializes the specified builder.
+        /// </summary>
+        /// <param name="builder">The builder.</param>
+        /// <returns></returns>
         private static RegistrationBuilder Init(RegistrationBuilder builder)
         {
             //Database -Stuff
@@ -66,9 +72,10 @@ namespace WsmTestApp
             builder.ForTypesMatching(t => t.GetInterface(typeof(IRepository<>).Name) != null)
                    .ExportInterfaces();
 
+            //Dispatcher
+            builder.ForTypesMatching(t => t.Name == "WPFDispatcher").ExportInterfaces();
 
-            builder.ForTypesMatching(t => t.Name == "HomeController")
-                   .Export();
+            builder.ForTypesMatching(t => t.Name == "Dispatcher").Export();
 
             //Database Connection
             builder.ForTypesMatching(t => t.Name == "MongoConnection").ExportInterfaces();
