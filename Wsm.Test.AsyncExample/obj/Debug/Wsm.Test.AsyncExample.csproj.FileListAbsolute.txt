@@ -1,0 +1,6 @@
+G:\Git\Wsm\Wsm.Test.AsyncExample\bin\Debug\Wsm.Test.AsyncExample.exe.config
+G:\Git\Wsm\Wsm.Test.AsyncExample\obj\Debug\Wsm.Test.AsyncExample.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.Test.AsyncExample\bin\Debug\Wsm.Test.AsyncExample.exe
+G:\Git\Wsm\Wsm.Test.AsyncExample\bin\Debug\Wsm.Test.AsyncExample.pdb
+G:\Git\Wsm\Wsm.Test.AsyncExample\obj\Debug\Wsm.Test.AsyncExample.exe
+G:\Git\Wsm\Wsm.Test.AsyncExample\obj\Debug\Wsm.Test.AsyncExample.pdb

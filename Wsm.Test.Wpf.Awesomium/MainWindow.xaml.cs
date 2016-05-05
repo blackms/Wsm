@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Awesomium.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace Wsm.Test.Wpf.Awesomium
         public MainWindow()
         {
             InitializeComponent();
+           
         }
     }
 }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Wsm.DownCast")]
+[assembly: AssemblyTitle("Wsm.Test.AsyncExample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Wsm.DownCast")]
+[assembly: AssemblyProduct("Wsm.Test.AsyncExample")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("38131ad8-839c-43e7-ad6a-64e6da93af17")]
+[assembly: Guid("0d887ed3-326d-4d03-b6fa-59562cc0155b")]
 
 // Version information for an assembly consists of the following four values:
 //

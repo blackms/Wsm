@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Test.Wpf.Awesomium", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.VMware", "Wsm.VMware\Wsm.VMware.csproj", "{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Test.AsyncExample", "Wsm.Test.AsyncExample\Wsm.Test.AsyncExample.csproj", "{0D887ED3-326D-4D03-B6FA-59562CC0155B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B0CFB1D-1472-43D2-B7CA-8B97F4322811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D887ED3-326D-4D03-B6FA-59562CC0155B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D887ED3-326D-4D03-B6FA-59562CC0155B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D887ED3-326D-4D03-B6FA-59562CC0155B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D887ED3-326D-4D03-B6FA-59562CC0155B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +97,6 @@ Global
 		{33824493-89F0-4A63-8982-E93EAA5D017B} = {18596430-7ECB-4587-B45E-D8134439DCEE}
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70} = {18596430-7ECB-4587-B45E-D8134439DCEE}
 		{A33F43DF-E2BA-40ED-80DE-C42C746D3771} = {18596430-7ECB-4587-B45E-D8134439DCEE}
+		{0D887ED3-326D-4D03-B6FA-59562CC0155B} = {18596430-7ECB-4587-B45E-D8134439DCEE}
 	EndGlobalSection
 EndGlobal
