@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MulticastProject
 {
-    public class Multicast: IDisposable
+    public class Multicast : IDisposable
     {
         // The address of the multicast group to join.
         // Must be in the range from 224.0.0.0 to 239.255.255.255
         private IPAddress _multicastAddress, _unicastAddress;
-        
+
         // The port over which to communicate to the multicast group
         private int _port;
 
         // A client receiver for multicast traffic from any source
-        UdpClient _client = null;
+        private UdpClient _client = null;
 
         // true if we have joined the multicast group; otherwise, false
         bool _joined = false;
@@ -28,21 +26,21 @@ namespace MulticastProject
 
         // Maximum size of a message in this communication
         private const int _messageSize = 512;
-        
+
         //time to live
         private readonly int _ttl;
-        
+
         //received messages
         public List<string> messages = new List<string>();
 
         private bool disposed = false; // to detect redundant calls
 
         public Multicast(IPAddress mcastAdrs, IPAddress localaddress, int mcastPort, int ttl)
-        {         
+        {
             _multicastAddress = mcastAdrs;
             _unicastAddress = localaddress;
             _port = mcastPort;
-            _ttl = ttl;          
+            _ttl = ttl;
         }
 
         /// <summary>
@@ -54,7 +52,7 @@ namespace MulticastProject
             _receiveBuffer = new byte[_messageSize];
 
             // client receiver for multicast traffic from any source, also known as Any Source Multicast (ASM)
-            _client = new UdpClient();       
+            _client = new UdpClient();
             // Make a request to join the group.
             _client.JoinMulticastGroup(_multicastAddress, _unicastAddress);
 
@@ -76,9 +74,7 @@ namespace MulticastProject
             if (_joined == false)
                 throw new Exception("Please join a group first");
 
-            var outgoing = string.Format("{0}{1}", System.Environment.MachineName, message);
-
-            byte[] data = Encoding.UTF8.GetBytes(outgoing);
+            byte[] data = Encoding.UTF8.GetBytes(string.Format("{0}{1}", Environment.MachineName, message));
 
             _client.Send(data, data.Length, new IPEndPoint(_multicastAddress, _port));
         }
@@ -89,17 +85,18 @@ namespace MulticastProject
         /// <exception cref="System.Exception">Please join a group first</exception>
         public void Receive()
         {
-            // Only attempt to receive if you have already joined the group
-            if (_joined == false)
-                throw new Exception("Please join a group first");
-
             try
             {
+                // Only attempt to receive if you have already joined the group
+                if (_joined == false)
+                    throw new Exception("Please join a group first");
+
                 Array.Clear(_receiveBuffer, 0, _receiveBuffer.Length);
                 _client.BeginReceive(new AsyncCallback(MulticastReceiveCallback), null);
             }
-            catch
+            catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 //debug
             }
         }
@@ -153,8 +150,8 @@ namespace MulticastProject
                     {
                         dispose.Dispose();
                         messages = null;
-                    }                   
-                }     
+                    }
+                }
 
                 disposed = true;
             }

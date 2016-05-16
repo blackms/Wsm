@@ -1,18 +1,11 @@
-﻿using MulticastProject;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MulticastProject
 {
     public static class Program
-    {       
-        
+    {   
         static NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
         static IPAddress multicast;
 
@@ -29,6 +22,7 @@ namespace MulticastProject
             var unicastAddresses = validnics.Select(nic => nic.GetIPProperties().UnicastAddresses.Where(unicastaddress => MulticastExtentions.ValidUnicastAddress(unicastaddress))).ToList();
 
             unicastAddresses.ForEach(ua => ua.PerformMulticastAction(mc => {
+               
                 //send to all available unicastaddresses
                 mc.Send("123");               
 
