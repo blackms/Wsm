@@ -1,0 +1,7 @@
+G:\Git\Wsm\Wsm.MultiCast\bin\Debug\Wsm.MultiCast.dll
+G:\Git\Wsm\Wsm.MultiCast\bin\Debug\Wsm.MultiCast.pdb
+G:\Git\Wsm\Wsm.MultiCast\bin\Debug\System.Net.Http.dll
+G:\Git\Wsm\Wsm.MultiCast\bin\Debug\System.Net.Http.xml
+G:\Git\Wsm\Wsm.MultiCast\obj\Debug\Wsm.MultiCast.csprojResolveAssemblyReference.cache
+G:\Git\Wsm\Wsm.MultiCast\obj\Debug\Wsm.MultiCast.dll
+G:\Git\Wsm\Wsm.MultiCast\obj\Debug\Wsm.MultiCast.pdb

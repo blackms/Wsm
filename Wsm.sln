@@ -19,13 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Logger", "Wsm.Logger\Ws
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{18596430-7ECB-4587-B45E-D8134439DCEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Authentication", "Wsm.Authentication\Wsm.Authentication.csproj", "{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.Test.Web.Mvc", "Wsm.Test.Web.Mvc\Wsm.Test.Web.Mvc.csproj", "{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{EFF3602F-4F74-45F6-95AB-A2E6F68EE5B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wsm.MultiCast", "Wsm.MultiCast\Wsm.MultiCast.csproj", "{73E4C647-9A2B-4A7F-A2F4-2D3E8D0F28B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastProject", "C:\Users\Wiljan\Documents\Visual Studio 2015\Projects\MulticastProject\MulticastProject\MulticastProject.csproj", "{967C593D-C926-455B-90BD-B6BAE2F6BA34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,24 +59,20 @@ Global
 		{D4DAD64D-6B39-42D2-93B1-5FC25F3F59A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4DAD64D-6B39-42D2-93B1-5FC25F3F59A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4DAD64D-6B39-42D2-93B1-5FC25F3F59A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC491888-D8B1-4E75-9CC0-D00F8F4EBCCC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73E4C647-9A2B-4A7F-A2F4-2D3E8D0F28B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73E4C647-9A2B-4A7F-A2F4-2D3E8D0F28B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73E4C647-9A2B-4A7F-A2F4-2D3E8D0F28B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73E4C647-9A2B-4A7F-A2F4-2D3E8D0F28B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967C593D-C926-455B-90BD-B6BAE2F6BA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967C593D-C926-455B-90BD-B6BAE2F6BA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967C593D-C926-455B-90BD-B6BAE2F6BA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967C593D-C926-455B-90BD-B6BAE2F6BA34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D92CE940-657F-4B46-80BA-CFFA9C5E4B70} = {18596430-7ECB-4587-B45E-D8134439DCEE}
-		{73E4C647-9A2B-4A7F-A2F4-2D3E8D0F28B3} = {18596430-7ECB-4587-B45E-D8134439DCEE}
+		{967C593D-C926-455B-90BD-B6BAE2F6BA34} = {18596430-7ECB-4587-B45E-D8134439DCEE}
 	EndGlobalSection
 EndGlobal

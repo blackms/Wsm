@@ -43,6 +43,14 @@ namespace MulticastProject
             _ttl = ttl;
         }
 
+        public Multicast(IPAddress mcastAdrs, int mcastPort, int ttl)
+        {
+            _multicastAddress = mcastAdrs;         
+            _port = mcastPort;
+            _ttl = ttl;
+        }
+
+
         /// <summary>
         /// Joins this instance.
         /// </summary>
@@ -54,8 +62,17 @@ namespace MulticastProject
             // client receiver for multicast traffic from any source, also known as Any Source Multicast (ASM)
             _client = new UdpClient();
             // Make a request to join the group.
-            _client.JoinMulticastGroup(_multicastAddress, _unicastAddress);
 
+            if (_unicastAddress == null)
+            {
+                //retrieve
+                _client.JoinMulticastGroup(_multicastAddress);
+            }
+            else {
+                //send
+                _client.JoinMulticastGroup(_multicastAddress, _unicastAddress);
+            }         
+            
             _joined = true;
 
             _client.Ttl = (short)_ttl;
