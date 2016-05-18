@@ -1,9 +1,11 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MulticastProject
 {
@@ -33,14 +35,14 @@ namespace MulticastProject
         /// </summary>
         /// <param name="unicastAddresses">The unicast addresses.</param>
         /// <param name="perform">The perform.</param>
-        public static void PerformMulticastAction(this IEnumerable<UnicastIPAddressInformation> unicastAddresses, Action<Multicast> perform, IPAddress multicast, int port, int ttl)
+        public static void PerformMulticastAction(this IEnumerable<UnicastIPAddressInformation> unicastAddresses, Action<Multicast> perform, IPAddress multicast, int port, int ttl, int index)
         {
             unicastAddresses.ToList().ForEach(uni =>
             {
                 Multicast mc = new Multicast(multicast, uni.Address, port, ttl);
-                mc.JoinMulticastGroup();
+                mc.JoinMulticastGroup(index);
                 perform(mc);
-                mc.Dispose();  
+                mc.Dispose();
             });
         }
     }
