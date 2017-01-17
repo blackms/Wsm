@@ -1,0 +1,13 @@
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\bin\Debug\Client.exe.config
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\obj\Debug\Server.csprojResolveAssemblyReference.cache
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\obj\Debug\Client.Form1.resources
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\obj\Debug\Client.Properties.Resources.resources
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\obj\Debug\Server.csproj.GenerateResource.Cache
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\bin\Debug\Client.exe
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\bin\Debug\Client.pdb
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\bin\Debug\Wsm.Wcf.Contracts.dll
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\bin\Debug\Wsm.Wcf.Contracts.pdb
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\obj\Debug\Client.exe
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\obj\Debug\Client.pdb
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\bin\Debug\Wsm.Wcf.Service.dll
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Client\bin\Debug\Wsm.Wcf.Service.pdb

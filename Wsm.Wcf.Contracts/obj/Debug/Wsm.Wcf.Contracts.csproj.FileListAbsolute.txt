@@ -1,0 +1,4 @@
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Contracts\bin\Debug\Wsm.Wcf.Contracts.dll
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Contracts\bin\Debug\Wsm.Wcf.Contracts.pdb
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Contracts\obj\Debug\Wsm.Wcf.Contracts.dll
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Contracts\obj\Debug\Wsm.Wcf.Contracts.pdb

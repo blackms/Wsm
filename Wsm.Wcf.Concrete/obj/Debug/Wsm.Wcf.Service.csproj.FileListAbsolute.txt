@@ -1,0 +1,7 @@
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Concrete\bin\Debug\Wsm.Wcf.Contracts.dll
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Concrete\bin\Debug\Wsm.Wcf.Contracts.pdb
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Concrete\obj\Debug\Wsm.Wcf.Service.csprojResolveAssemblyReference.cache
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Concrete\bin\Debug\Wsm.Wcf.Service.dll
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Concrete\bin\Debug\Wsm.Wcf.Service.pdb
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Concrete\obj\Debug\Wsm.Wcf.Service.dll
+c:\users\wiljan\documents\visual studio 2013\Projects\Wsm.Wcf.Examples\Wsm.Wcf.Concrete\obj\Debug\Wsm.Wcf.Service.pdb
